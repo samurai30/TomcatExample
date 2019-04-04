@@ -9,10 +9,16 @@
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        body{
+            background: url("../../core-java.jpg");
+            background-size: cover;
 
+        }
+    </style>
 </head>
 <body>
-<nav class="cyan darken-4">
+<nav class="deep-orange darken-4">
     <div class="nav-wrapper">
         <a href="../../index.jsp" class="brand-logo center">JSTL-EL-EXAMPLE</a>
         <ul id="nav-mobile" class="left hide-on-med-and-down">

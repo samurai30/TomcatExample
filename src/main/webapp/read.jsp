@@ -16,12 +16,15 @@
     </sql:query>
 
     <div class="container">
-        <table border = "1" width = "100%">
+        <table border = "1" width = "100%" class="white-text highlight centered highlight" style="background: rgba(0,0,0,0.5)">
             <tr>
                 <th>User ID</th>
                 <th>User Name</th>
                 <th>User Email</th>
                 <th>User Contact</th>
+                <th>Delete</th>
+                <th>Update</th>
+
             </tr>
 
             <c:forEach var = "row" items = "${result.rows}">
