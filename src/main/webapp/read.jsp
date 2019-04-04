@@ -22,6 +22,7 @@
                 <th>User Name</th>
                 <th>User Email</th>
                 <th>User Contact</th>
+                <th>Joined Date</th>
                 <th>Delete</th>
                 <th>Update</th>
 
@@ -34,6 +35,7 @@
                     <td> <c:out value = "${row.name}"/></td>
                     <td> <c:out value = "${row.email}"/></td>
                     <td> <c:out value = "${row.contact}"/></td>
+                    <td> <c:out value = "${row.date}"/></td>
                     <td> <a class="btn red" href="delete.jsp?id=${row.id}">Delete</a></td>
                     <td><a class="btn blue lighten-3" href="update.jsp?id=${row.id}&name=${row.name}&email=${row.email}&contact=${row.contact}">Update</a></td>
                 </tr>

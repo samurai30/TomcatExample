@@ -6,6 +6,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <t:wrapper>
+
     <sql:setDataSource var="emp" driver = "com.mysql.cj.jdbc.Driver"
                        url="jdbc:mysql://127.0.0.1:3306/jstl"
                        user="root"  password=""/>
@@ -20,6 +21,8 @@
             alert("Updated Successfully");
         </script>
     </c:if>
+
+
 
 
 </t:wrapper>
